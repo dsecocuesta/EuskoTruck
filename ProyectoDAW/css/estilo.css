@@ -1,0 +1,620 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+
+@media (min-width: 650px) {
+	
+body{font-family: Georgia, serif; background-color:#F5F3F0; background-image:url(../img/bg.jpg); background-repeat:repeat; margin:0px; padding:0px;  }
+h1 { font-family:"open sans", Georgia, "Times New Roman", Times, serif; font-size:1.5em; color:#1074c8; margin:0px 0px 20px 20px; padding:0px; font-variant:small-caps}
+h2 { font-family: Georgia, serif; font-size:1.2em; color:#666; padding:0px 0px 0px 10px; margin:15px 0px 20px 0px}
+h3 { font-family: Georgia, serif; font-size:0.9em; color:#666; padding:0px 0px 0px 10px; margin:20px 0px 10px 0px; font-style:italic}
+a img { border:0px; cursor:pointer}
+
+table, th, td{text-align:left;align:center;}
+
+
+
+#webContainer{ width:1000px;margin:auto; padding:0px}
+#logo { margin:10px 20px 20px 10px; padding:10px 40px 10px 10px; text-align:right; height:80px;}
+#logo p { font-size:0.8em}
+#logo p a { color:#900; text-decoration:none}
+#logo p a:hover { text-decoration:underline}
+#logo img { float:left}
+footer { margin:10px 30px 30px 10px; padding:10px 40px 10px 10px; color:#999; font-size:0.7em; text-align:right}
+footer a { color:#900; text-decoration:none; margin:0px 0px 0px 10px; border-left: 1px dotted #999; padding:0px 0px 0px 10px}
+
+#webBody{padding:0px 0px 0px 10px;}
+#fNuevoParte { padding:30px; margin:auto; background-image:url(../img/fndNuevoParte.png); background-repeat:no-repeat; background-position:top left;}
+#fNuevoParte p { margin:7px 10px 10px 10px; font-size:0.9em}
+#fNuevoParte p a { color:#900; font-size:0.9em; font-weight:bold; letter-spacing:0.1em; margin-left:10px; text-decoration:none} 
+#fNuevoParte label { display:inline-block; margin:0px 0px 0px 0px; width:100px }
+#fNuevoParte label { font-style:italic}
+#fNuevoParte label.t02 { width:120px}
+#fNuevoParte label.t03 { width:30px}
+#fNuevoParte label.t04 { width:40px}
+#fNuevoParte input { margin:0px 20px 0px 0px; border:0px; padding:5px 5px}
+#fNuevoParte input.tipo01 { background-image:url(../img/input01.png); background-position:top left; background-repeat:no-repeat; text-align:center; padding:9px 5px 9px 2px; width:83px}
+#fNuevoParte input.tipo001 { background-image:url(../img/input01.png); background-position:top left; background-repeat:no-repeat; text-align:center; padding:9px 5px 9px 2px; width:120px; outline: none}
+#fNuevoParte input.tipo02 { background-image:url(../img/input02.png); background-position:top left; background-repeat:no-repeat; text-align:left; padding:9px 10px 9px 10px; width:480px}
+#fNuevoParte input.tipo03 { background-image:url(../img/input03.png); background-position:top left; background-repeat:no-repeat; text-align:left; padding:9px 10px 9px 10px; width:200px}
+#fNuevoParte input.tipo04 { background-image:url(../img/input04.png); background-position:top left; background-repeat:no-repeat; text-align:left; padding:9px 10px 9px 10px; width:35px}
+#fNuevoParte textarea { background-image:url(../img/input05.png); background-position:top left; background-repeat:no-repeat; text-align:left; width:723px; height:73px; border:0; padding:8px 10px 0px 10px}
+#fNuevoParte #gesCli select { background-image:url(../img/input02.png); background-position:top left; background-repeat:no-repeat; width:500px; padding:8px 10px 7px 10px; border:0px}
+#fNuevoParte #gesCli2 select { background-image:url(../img/input07.png); background-position:top left; background-repeat:no-repeat; padding:8px 10px 7px 10px; border:0px}
+#fNuevoParte input.but { background-image:url(../img/fndInput05.png); margin:0px 100px 0px 70px; border:0px; width:280px;text-align:center; font-variant:small-caps; font-weight:bold; color:#900; cursor:pointer; height:35px}
+#fNuevoParte #gesCli3 select { background-image:url(../img/input07.png); background-position:top left; background-repeat:no-repeat; padding:8px 10px 7px 10px; border:0px}
+
+#fLogOk { padding:10px; width:615px; margin:auto; background-image:url(../img/fndErrorOk.png)}
+#fLogOk p { font-size:0.9em; color:#063; padding:25px 0px 10px 140px; margin:0px; font-style:italic}
+#fLogError { padding:10px; width:615px; margin:auto; background-image:url(../img/fndErrorLog.png)}
+#fLogError p { font-size:0.9em; color:#900; padding:25px 0px 10px 140px; margin:0px; font-style:italic}
+#fLog{ background-image:url(../img/fndLogin.png); background-repeat:no-repeat; background-position:top left; padding:20px 10px; width:615px; margin:auto; }
+form.frmLog { padding:0px; margin:0px 0px 0px 280px}
+form.frmLog label { display:inline-table; width:100px; margin:0px; padding:0px 10px 5px 0px; font-size:0.9em; color:#666}
+form.frmLog input { background-image:url(../img/fndInput01.png); border:0px; background-repeat:no-repeat; background-position:top left; width:161px; font-size:0.9em; padding:5px 15px 7px 15px; color:#333; outline: none}
+form.frmLog input.btn{ text-align:center; width:192px; background-image:url(../img/fndInput02.png); text-transform:uppercase; font-weight:bold; outline: none; cursor:pointer }
+form.frmLog input.btn:hover { box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);}
+form.frmLog p { margin:5px 0px 20px 0px; padding:0px}
+
+#fMen { background-image:url(../img/fndMenu.png); margin:0px 10px 20px 0px; padding:30px 0px 0px 0px; background-repeat:no-repeat; height:360px}
+#fMen p { margin:24px 0px 0px 0px; text-align:center}
+#fMen img { margin:0px 30px 0px 30px}
+
+
+#tablaUsuarios {}
+#tablaUsuarios p { font-size:0.8em; margin:0px 0px 10px 0px}
+#tablaUsuarios p a { color:#900; font-size:0.9em; font-weight:bold; letter-spacing:0.1em; margin-left:10px; text-decoration:none} 
+#tablaUsuarios p.table01 { height:20px; background-image:url(../img/table01.png); background-repeat:no-repeat; margin:0px; padding:0px}
+#tablaUsuarios table{ background-image:url(../img/table02.png); background-repeat:no-repeat; margin:0px; padding:0px; width:950px	}
+#tablaUsuarios table th  { width:10px; font-size:0.9em;  text-align:center; font-variant:small-caps; vertical-align:middle; padding:5px 5px 5px 5px; color:#666}
+#tablaUsuarios table th.nombre { width:150px}
+#tablaUsuarios table th.permisos { width:50px; font-size:0.8em}
+#tablaUsuarios table td { padding-left:10px}
+#tablaUsuarios table td.vac { width:50px}
+#tablaUsuarios table td.permisos { text-align:center}
+#tablaUsuarios table td.acciones { width:130px; padding-left:20px}
+#tablaUsuarios table td { font-size:0.8em}
+#tablaUsuarios p.table03 { height:30px; background-image:url(../img/table03.png); background-repeat:no-repeat; margin:0px 0px 0px -18px; padding:0px; width: 930px;}
+#tablaUsuarios p.table04 { height:30px; background-image:url(../img/table03.png); background-repeat:no-repeat; padding:0px}
+#tablaUsuarios p a.modCli { color:#900; float: right; margin-right: 90px;} 
+
+#tablaUsuarios #gesUsu { background-image:url(../img/fndUsu.png); background-repeat:no-repeat; margin:0px; padding:10px 0px 40px 30px}
+#tablaUsuarios #gesUsu form.frmUsu { margin:0px; padding:0px}
+#tablaUsuarios #gesUsu form.frmUsu label{ display:inline-block; width:80px; margin:0px 10px 0px 10px; text-align:right }
+#tablaUsuarios #gesUsu form.frmUsu input { background-image:url(../img/fndInput03.png); border:0px; background-repeat:no-repeat; background-position:top left; width:150px; padding:8px 15px 8px 15px; color:#333;}
+#tablaUsuarios #gesUsu form.frmUsu input.chk { width:30px}
+#tablaUsuarios #gesUsu form.frmUsu input.btn { background-image:url(../img/fndInput04.png); background-repeat:no-repeat; width:170px; text-align:center; margin:15px 0px 0px 500px; font-variant:small-caps; font-weight:bold; color:#900; cursor:pointer}
+#tablaUsuarios #gesUsu form.frmUsu input.btn2 { background-image:url(../img/fndInput04.png); background-repeat:no-repeat; width:170px; text-align:center; margin:20px 0px 0px 20px; font-variant:small-caps; font-weight:bold; color:#900; cursor:pointer}
+#tablaUsuarios #gesUsu span { font-size:0.9em; font-style:italic; color:#666}
+#tablaUsuarios #gesUsu p.cerrar { text-align:right; margin:25px 70px 0px 0px; font-size:0.8em}
+#tablaUsuarios #gesUsu p.cerrar a { text-decoration:none; color:#900}
+#tablaUsuarios #gesUsu p.cerrar a:hover { text-decoration:underline; color:#666}
+
+#tablaUsuarios #export { align-items: center; margin-left:230px;}
+#tablaUsuarios #export form{ float:left;}
+#tablaUsuarios #export input{ width:117px; height:137px; }
+#tablaUsuarios #export input:hover {  position: relative;  -webkit-animation: mymove 0.6s;  -webkit-animation-fill-mode: forwards; animation: mymove 0.6s; animation-fill-mode: forwards;}
+@-webkit-keyframes mymove {  from {top: 0px;}  to {top: -5px;}}
+@keyframes mymove { from {top: 0px;}  to {top: -5px;}}
+
+#tablaUsuarios #export h1{ margin-left: 165px;}
+
+#tablaPartes p { font-size:0.8em; margin:0px 0px 10px 0px}
+#tablaPartes p a { color:#900; font-size:0.9em; font-weight:bold; letter-spacing:0.1em; margin-left:10px; text-decoration:none} 
+#tablaPartes p.table01 { height:20px; background-image:url(../img/table01.png); background-repeat:no-repeat; margin:0px; padding:0px}
+#tablaPartes table{ background-image:url(../img/table02.png); background-repeat:no-repeat; margin:0px; padding:0px; width:930px	}
+#tablaPartes table th  { width:10px; font-size:0.9em;  text-align:center; font-variant:small-caps; vertical-align:middle; padding:5px 5px 5px 5px; color:#666}
+#tablaPartes table th.nombre { width:150px}
+#tablaPartes table th.permisos { width:50px; font-size:0.8em}
+#tablaPartes table td { padding-left:10px}
+#tablaPartes table td.vac { width:50px}
+#tablaPartes table td.permisos { text-align:center}
+#tablaPartes table td.acciones { width:130px; padding-left:20px}
+#tablaPartes table td { font-size:0.8em}
+#tablaPartes p.table03 { height:30px; background-image:url(../img/table03.png); background-repeat:no-repeat; margin:0px; padding:0px}
+#tablaPartes p a.modCli { color:#900; float: right; margin-right: 90px;} 
+
+#tablaPartes #dPrecio { margin:0px 0px 0px -1px; padding:0px }
+#tablaPartes #dPrecio label { width:80px; display:inline-block; margin:0px 10px 0px 20px; text-align:right; color:#666}
+#tablaPartes #dPrecio table { padding: 10px 25px 25px 35px; margin:8px 0px 0px -30px;}
+#tablaPartes #dPrecio table th { font-size:0.9em; font-variant:small-caps; color:#666; width:70px; text-align:center; background-color:#DDD; padding:5px 5px;}
+#tablaPartes #dPrecio table td { font-size:0.9em; color:#666; text-align:center;padding:5px 5px}
+#tablaPartes #dPrecio table td.lit { width:140px; text-align:left} 
+#tablaPartes #fechaEditarParte {}
+#tablaPartes #estadoEditarParte {float:right;margin:-75px 70px 0px -10px;}
+#txtobservaciones  {width:340px;}
+
+#tablaPartes #gesParte { background-image:url(../img/fndUsu.png); background-repeat:no-repeat; margin:0px; padding:10px 0px 40px 30px}
+#tablaPartes #gesParte form.frmUsu { margin:0px; padding:0px}
+#tablaPartes #gesParte form.frmUsu label{ display:inline-block; width:80px; margin:0px 10px 0px 10px; text-align:right }
+#tablaPartes #gesParte form.frmUsu input { background-image:url(../img/fndInput03.png); border:0px; background-repeat:no-repeat; background-position:top left; width:150px; padding:8px 15px 8px 15px; color:#333; outline: none}
+#tablaPartes #gesParte form.frmUsu input.chk { width:30px}
+#tablaPartes #gesParte form.frmUsu input.btn { float: right; background-image: url(../img/fndInput04.png); background-repeat: no-repeat; width: 170px;text-align: center; font-variant: small-caps; font-weight: bold;  color: #900;  cursor: pointer; margin: -40px 70px 0px 0px;}
+#tablaPartes #gesParte form.frmUsu input.btn2 { background-image:url(../img/fndInput04.png); background-repeat:no-repeat; width:170px; text-align:center; margin:20px 0px 0px 20px; font-variant:small-caps; font-weight:bold; color:#900; cursor:pointer}
+#tablaPartes #gesParte span { font-size:0.9em; font-style:italic; color:#666}
+#tablaPartes #gesParte p.cerrar { text-align:right; margin:25px 70px 0px 0px; font-size:0.8em}
+#tablaPartes #gesParte p.cerrar a { text-decoration:none; color:#900}
+#tablaPartes #gesParte p.cerrar a:hover { text-decoration:underline; color:#666}
+#tablaPartes select { background-image:url(../img/input06.png); background-position:top left; background-repeat:no-repeat; padding:8px 10px 7px 10px; border:0px; width:5px}
+
+#partesH { padding:0px; margin:10px 0px 20px 0px;}
+#partesH p { font-size:0.8em; margin:0px 0px 10px 0px}
+#partesH p a { color:#900; font-size:0.9em; font-weight:bold; letter-spacing:0.1em; margin-left:10px; text-decoration:none} 
+#partesH #gesCli2 select { background-image:url(../img/input02.png); background-position:top left; background-repeat:no-repeat; padding:8px 10px 7px 10px; border:0px}
+
+.partesN { background-image:url(../img/fndMov.png); background-repeat:no-repeat; background-position:top left; margin:0px 0px 10px 0px; padding:5px 25px 10px 0px; height:55px; text-align:center}
+.partesN p img { float:left}
+.partesN p span {margin-top:50px; color:#666;}
+.partesN span { margin:00px 20px -20px 0px; }
+.partesN select { background-image:url(../img/input06.png); background-position:top left; background-repeat:no-repeat; padding:8px 10px 7px 10px; border:0px; width:5px}
+.partesN input.tipo01 { background-image:url(../img/input01.png); background-position:top left; background-repeat:no-repeat;width:83px; text-align:center; padding:9px 5px 9px 2px; width:83px}
+.partesN p { margin:7px 10px 10px 10px; font-size:0.9em}
+.partesN p a { color:#900; font-size:0.9em; font-weight:bold; letter-spacing:0.1em; margin-left:10px; text-decoration:none} 
+.partesN label { display:inline-block; margin:0px 10px 0px 0px; width:100px }
+.partesN label { font-style:italic}
+.partesN input { margin:0px 20px 0px 0px; border:0px; padding:5px 5px}
+.partesN input.butbuscar { margin:0px 20px -20px 0px; border:0px; padding:5px 5px}
+
+.partesN2 { background-image:url(../img/fndMov2.png); background-repeat:no-repeat; background-position:top left; margin:20px 28px 0px 0px; padding:20px 0px 0px 0px; text-align:center; height:150px}
+.partesN2 input { border:0px; width:280px; height:35px}
+.partesN2 input.but { background-image:url(../img/fndInput05.png); margin:10px 10px 0px 0px; padding:0px 0px 7px 0px; text-align:center; border:0px; width:280px; height:35px; font-variant:small-caps; font-weight:bold; color:#900; cursor:pointer}
+.partesN2 input.butpdf {  margin:10px 30px 0px 0px; border:0px; padding:5px 5px;}
+.partesN2 input.tipo01 { background-image:url(../img/input01.png); background-position:top left; background-repeat:no-repeat; text-align:center; padding:-10px 15px 8px 15px;margin:0px 0px 0px 0px; width:83px; font-variant:small-caps; font-weight:bold; color:#900; cursor:pointer;vertical-align:middle;}
+.partesN2 select { background-image:url(../img/input06.png); background-position:top left; background-repeat:no-repeat; padding:8px 10px 7px 10px; border:0px; width:30px}
+.partesN2 label { display:inline-block; margin:0px 10px 0px 0px; width:100px }
+.partesN2 label { font-style:italic}
+.partesN2 p { margin:7px 10px 0px 10px; font-size:0.9em}
+.partesN2 p a { color:#900; font-size:0.9em; font-weight:bold; letter-spacing:0.1em; margin-left:10px; text-decoration:none} 
+
+.partesN1 { background-image:url(../img/fndMov.png); background-repeat:no-repeat; background-position:top left; margin:0px 0px 10px 0px; padding:20px 0px 0px 250px; height:55px; text-align:center}
+.partesN1 p img { float:left}
+.partesN1 p span { color:#666; float:left; width:80px; text-align:center; padding-top:5px}
+.partesN1 p { margin:0px 10px 10px 10px; font-size:0.9em}
+.partesN1 input { margin:0px 10px; border:0px; padding:5px 5px; float:left;}
+ 
+
+
+#partesB { background-image:url(../img/fndPartes.png); background-repeat:no-repeat; background-position:top left; margin:0px; padding:25px 0px 0px 20px }
+#partesB p { font-size:0.8em; margin:10px 0px 0px 0px}
+#partesB label { font-style:italic}
+#partesB #dFecha { font-variant:small-caps; }
+#partesB #dFecha label { width:130px; display:inline-block; margin:0px 10px 0px 20px; text-align:right; color:#666; font-weight:bold; font-size:1.1em;}
+#partesB #gesCli{ margin:30px 0px 30px 0px }
+#partesB #gesCli label { width:120px; display:inline-block; margin:0px 10px 0px 20px; text-align:right; color:#666}
+#partesB #gesCli img { width:30px; }
+#partesB #dVisita{ margin:20px 0px 30px 0px }
+#partesB #dVisita label { width:160px; display:inline-block; margin:0px 10px 0px 20px; text-align:right; color:#666}
+#partesB #dCompet{ margin:30px 0px 0px 0px; padding:0px }
+#partesB #dCompet label { width:130px; display:inline-block; margin:0px 10px 0px 20px; text-align:right; color:#666}
+#partesB #dEqui { margin:30px 0px 0px 0px; padding:0px }
+#partesB #dEqui table { margin:0px 10px 0px 50px; border:1PX solid #CCC;}
+#partesB #dEqui table th { font-size:0.9em; font-variant:small-caps; color:#666; width:70px; text-align:center; background-color:#DDD; padding:5px 5px}
+#partesB #dEqui table td { font-size:0.9em; color:#666; text-align:center;padding:5px 5px}
+#partesB #dEqui table td.lit { width:140px; text-align:left} 
+#partesB #dPrecio { margin:30px 0px 0px 0px; padding:0px }
+#partesB #dPrecio label { width:80px; display:inline-block; margin:0px 10px 0px 20px; text-align:right; color:#666}
+#partesB #dPrecio table { margin:10px 10px 0px 50px; border:1PX solid #CCC;}
+#partesB #dPrecio table th { font-size:0.9em; font-variant:small-caps; color:#666; width:70px; text-align:center; background-color:#DDD; padding:5px 5px;}
+#partesB #dPrecio table td { font-size:0.9em; color:#666; text-align:center;padding:5px 5px}
+#partesB #dPrecio table td.lit { width:140px; text-align:left} 
+#partesB #dCanon  { margin:30px 0px 0px 0px; padding:0px }
+#partesB #dCanon label { width:150px; display:inline-block; margin:0px 10px 0px 20px; text-align:right; color:#666}
+#partesB #dCanon table { margin:10px 10px 0px 50px; border:1PX solid #CCC;}
+#partesB #dCanon table th { font-size:0.9em; font-variant:small-caps; color:#666; width:70px; text-align:center; background-color:#DDD; padding:5px 5px;}
+#partesB #dCanon table td { font-size:0.9em; color:#666; text-align:center;padding:5px 5px}
+#partesB #dCanon table td.lit { width:190px; text-align:left} 
+#partesB #dComent{ margin:30px 0px 0px 60px; padding:0px 0px 70px 0px }
+#partesB #dComent label {margin:0px 10px 0px -20px;color:#666}
+#partesB #pdf  {margin:-40px 80px 0px 50px}
+
+
+#partesNB { background-image:url(../img/fndPartes.png); background-repeat:no-repeat; background-position:top left; margin:0px; padding:25px 0px 0px 20px }
+#partesNB p { margin:7px 10px 10px 10px; font-size:0.9em}
+#partesNB p a { color:#900; font-size:0.9em; font-weight:bold; letter-spacing:0.1em; margin-left:10px; text-decoration:none} 
+#partesNB label { display:inline-block; margin:0px 10px 0px 0px; width:80px }
+#partesNB label.t02 { width:120px}
+#partesNB label.t03 { width:30px}
+#partesNB label.t04 { width:40px}
+#modificarVenta a { margin:0px 80px 0px 50px;color: #900; font-size: 0.9em; font-weight: bold; margin-left: 10px; text-decoration: none;}
+
+
+#partesNB input { margin:0px 20px 0px 0px; border:0px; padding:5px 5px}
+#partesNB input.tipo01 { background-image:url(../img/input01.png); background-position:top left; background-repeat:no-repeat; text-align:center; padding:9px 5px 9px 2px; width:83px}
+#partesNB input.tipo02 { background-image:url(../img/input02.png); background-position:top left; background-repeat:no-repeat; text-align:left; padding:9px 10px 9px 10px; width:480px}
+#partesNB input.tipo03 { background-image:url(../img/input03.png); background-position:top left; background-repeat:no-repeat; text-align:left; padding:9px 10px 9px 10px; width:200px}
+#partesNB input.tipo04 { background-image:url(../img/input04.png); background-position:top left; background-repeat:no-repeat; text-align:left; padding:9px 10px 9px 10px; width:35px}
+#partesNB #gesCli { margin:30px 0px 30px 10px; font-size:0.9em;}
+#partesNB #gesCli select { background-image:url(../img/input02.png); background-position:top left; background-repeat:no-repeat; width:500px; padding:8px 10px 7px 10px; border:0px}
+
+#fNuevoCliente { padding:30px; margin:auto; background-image:url(../img/fndNuevocli.png); background-repeat:no-repeat; background-position:top left;}
+#fNuevoCliente p { margin:7px 10px 10px 10px; font-size:0.9em}
+#fNuevoCliente p a { color:#900; font-size:0.9em; font-weight:bold; letter-spacing:0.1em; margin-left:10px; text-decoration:none} 
+#fNuevoCliente label { display:inline-block; margin:0px 10px 0px 0px; width:80px }
+#fNuevoCliente label { font-style:italic}
+#fNuevoCliente input { border:0px; width:280px}
+#fNuevoCliente input.but { background-image:url(../img/fndInput05.png); background-repeat:no-repeat; margin:20px 0px 0px 0px; padding:0px 0px 7px 0px; border:0px; width:280px; height:33px;text-align:center; font-variant:small-caps; font-weight:bold; color:#900; cursor:pointer; height:35px}
+#fNuevoCliente input.tipo01 { background-image:url(../img/input01.png); background-position:top left; background-repeat:no-repeat; text-align:center; padding:9px 5px 9px 2px; width:83px}
+#fNuevoCliente input.tipo02 { background-image:url(../img/input02.png); background-position:top left; background-repeat:no-repeat; text-align:left; padding:9px 10px 9px 10px; width:480px}
+#fNuevoCliente input.tipo03 { background-image:url(../img/input03.png); background-position:top left; background-repeat:no-repeat; text-align:left; padding:9px 10px 9px 10px; width:200px}
+#fNuevoCliente input.tipo04 { background-image:url(../img/input04.png); background-position:top left; background-repeat:no-repeat; text-align:left; padding:9px 10px 9px 10px; width:35px}
+#fNuevoCliente textarea.tipo05 { background-image:url(../img/input05.png); background-position:top left; background-repeat:no-repeat; text-align:left; width:742px}
+
+
+#tablaVehiculos p { font-size:0.8em; margin:0px 0px 10px 0px}
+#tablaVehiculos p a { color:#900; font-size:0.9em; font-weight:bold; letter-spacing:0.1em; margin-left:10px; text-decoration:none} 
+#tablaVehiculos p.table01 { height:20px; background-image:url(../img/table01.png); background-repeat:no-repeat; margin:0px; padding:0px}
+#tablaVehiculos table{ background-image:url(../img/table02.png); background-repeat:no-repeat; margin:0px; padding:0px; width:850px	}
+#tablaVehiculos table th  { width:10px; font-size:0.9em;  text-align:center; font-variant:small-caps; vertical-align:middle; padding:5px 5px 5px 5px; color:#666}
+#tablaVehiculos table th.nombre { width:150px}
+#tablaVehiculos table th.permisos { width:50px; font-size:0.8em}
+#tablaVehiculos table td { padding-left:10px}
+#tablaVehiculos table td.vac { width:50px}
+#tablaVehiculos table td.permisos { text-align:center}
+#tablaVehiculos table td.acciones { width:130px; padding-left:20px}
+#tablaVehiculos table td { font-size:0.8em}
+#tablaVehiculos p.table03 { height:30px; background-image:url(../img/table03.png); background-repeat:no-repeat; margin:0px; padding:0px}
+#tablaVehiculos p a.modCli { color:#900; float: right; margin-right: 90px;} 
+
+#tablaVehiculos #gesUsu { background-image:url(../img/fndUsu.png); background-repeat:no-repeat; margin:0px; padding:10px 0px 40px 30px}
+#tablaVehiculos #gesUsu form.frmUsu { margin:0px; padding:0px}
+#tablaVehiculos #gesUsu form.frmUsu label{ display:inline-block; width:80px; margin:0px 10px 0px 10px; text-align:right }
+#tablaVehiculos #gesUsu form.frmUsu input { background-image:url(../img/fndInput03.png); border:0px; background-repeat:no-repeat; background-position:top left; width:150px; padding:8px 15px 8px 15px; color:#333;}
+#tablaVehiculos #gesUsu form.frmUsu input.chk { width:30px}
+#tablaVehiculos #gesUsu form.frmUsu input.btn { background-image:url(../img/fndInput04.png); background-repeat:no-repeat; width:170px; text-align:center; margin:15px 0px 0px 500px; font-variant:small-caps; font-weight:bold; color:#900; cursor:pointer}
+#tablaVehiculos #gesUsu form.frmUsu input.btn2 { background-image:url(../img/fndInput04.png); background-repeat:no-repeat; width:170px; text-align:center; margin:20px 0px 0px 20px; font-variant:small-caps; font-weight:bold; color:#900; cursor:pointer}
+#tablaVehiculos #gesUsu span { font-size:0.9em; font-style:italic; color:#666}
+#tablaVehiculos #gesUsu p.cerrar { text-align:right; margin:25px 70px 0px 0px; font-size:0.8em}
+#tablaVehiculos #gesUsu p.cerrar a { text-decoration:none; color:#900}
+#tablaVehiculos #gesUsu p.cerrar a:hover { text-decoration:underline; color:#666}
+
+#tablaVehiculos #dEqui { margin:0px 0px 10px -40px; padding:0px }
+#tablaVehiculos #dEqui table { margin:0px 10px 0px 50px; border:1PX solid #CCC;}
+#tablaVehiculos #dEqui table th { font-size:0.9em; font-variant:small-caps; color:#666; width:70px; text-align:center; background-color:#DDD; padding:5px 5px}
+#tablaVehiculos #dEqui table td { font-size:0.9em; color:#666; text-align:center;padding:5px 5px}
+#tablaVehiculos #dEqui table td.lit { width:140px; text-align:left} 
+
+#tablaEmail p { font-size:0.8em; margin:0px 0px 10px 0px}
+#tablaEmail p a { color:#900; font-size:0.9em; font-weight:bold; letter-spacing:0.1em; margin-left:10px; text-decoration:none} 
+#tablaEmail p.table01 { height:20px; background-image:url(../img/table01.png); background-repeat:no-repeat; margin:0px; padding:0px}
+#tablaEmail p.table03 { height:30px; background-image:url(../img/table03.png); background-repeat:no-repeat; margin:0px; padding:0px}
+#tablaEmail p a.modCli { color:#900; float: right; margin-right: 90px;} 
+
+#tablaEmail #dPrecio { margin:0px 0px 0px -1px; padding:0px }
+#tablaEmail #dPrecio label { width:80px; display:inline-block; margin:0px 10px 0px 20px; text-align:right; color:#666}
+#tablaEmail #estadoEditarParte {float:right;margin:-75px 70px 0px -10px;}
+
+#tablaEmail #gesParte { background-image:url(../img/fndNuevocli.png); background-repeat:no-repeat; margin:0px; padding:10px 0px 10px 10px}
+#tablaEmail #gesParte form.frmUsu { margin:0px; padding:0px}
+#tablaEmail #gesParte form.frmUsu label{ font-family: Georgia, serif;  font-size: 1.2em;   color: #666; width:80px; margin:0px 30px 0px 20px; text-align:right }
+#tablaEmail #gesParte form.frmUsu input { background-image:url(../img/Input07.png); border:0px; background-repeat:no-repeat; background-position:top left; width:370px; padding:8px 15px 10px 15px; color:#333; outline: none}
+#tablaEmail #gesParte form.frmUsu input.chk { width:30px}
+#tablaEmail #gesParte form.frmUsu input.btn { float: right; background-image: url(../img/fndInput04.png); background-repeat: no-repeat; width: 170px;text-align: center; font-variant: small-caps; font-weight: bold;  color: #900;  cursor: pointer; margin: -40px 60px 0px 0px;}
+#tablaEmail #gesParte form.frmUsu input.btn2 { background-image:url(../img/fndInput04.png); background-repeat:no-repeat; width:170px; text-align:center; margin:20px 0px 0px 20px; font-variant:small-caps; font-weight:bold; color:#900; cursor:pointer}
+#tablaEmail #gesParte span { font-size:0.9em; font-style:italic; color:#666}
+#tablaEmail #gesParte p.cerrar { text-align:right; margin:25px 70px 0px 0px; font-size:0.8em}
+#tablaEmail #gesParte p.cerrar a { text-decoration:none; color:#900}
+#tablaEmail #gesParte p.cerrar a:hover { text-decoration:underline; color:#666}
+#tablaEmail #gesParte h2 { margin:35px 10px 0px 10px;}
+#tablaEmail #gesParte textarea { background-image:url(../img/input05.png); background-position:top left; background-repeat:no-repeat; text-align:left; width:723px; height:73px; border:0; padding:8px 10px 0px 10px; outline: none}
+}
+
+
+/**************************************************************
+***************************************************************
+***************************************************************
+***************************************************************
+***************************************************************/
+
+
+@media (max-width: 650px) {
+    	
+	body{font-family: Georgia, serif; background-color:#F5F3F0; background-image:url(../img/bg.jpg); background-repeat:repeat; margin:0px; padding:0px }
+	h1 { font-family:"open sans", Georgia, "Times New Roman", Times, serif; font-size:1.2em; color:#1074c8; margin:0px 0px 20px 20px; padding:0px; font-variant:small-caps}
+	h2 { font-family: Georgia, serif; font-size:1.0em; color:#666; padding:0px 0px 0px 10px; margin:15px 0px 20px 0px}
+	h3 { font-family: Georgia, serif; font-size:0.8em; color:#666; padding:0px 0px 0px 10px; margin:20px 0px 10px 0px; font-style:italic}
+	a img { border:0px; cursor:pointer}
+
+	table, th, td{text-align:left;align:center;}
+
+
+	#webContainer{  padding:0px}
+	#logo { margin:10px 20px 20px 10px; padding:10px 40px 10px 10px; text-align:right; height:80px;}
+	#logo p { font-size:0.8em}
+	#logo p a { color:#900; text-decoration:none}
+	#logo p a:hover { text-decoration:underline}
+	#logo img { float:left}
+	footer { margin:10px 10px 30px 10px; padding:10px 0px 10px 10px; color:#999; font-size:0.7em; text-align:right}
+	footer a { color:#900; text-decoration:none; margin:0px 0px 0px 10px; border-left: 1px dotted #999; padding:0px 0px 0px 10px}
+	#fLogOk { padding:10px; width:100%; margin:auto; background-image:url(../img/fndErrorOk.png)}
+	#fLogOk p { font-size:0.9em; color:#063; padding:25px 0px 10px 100px; margin:0px; font-style:italic}
+	#fLogError { padding:10px; background-image:url(../img/fndErrorLog.png)}
+	#fLogError p { font-size:0.9em; color:#900; padding:25px 0px 10px 140px; margin:0px; font-style:italic}
+	#fLog{ background-repeat:no-repeat; background-position:top left; padding:20px 10px; margin:auto; }
+	form.frmLog { padding:0px; margin:0px 0px 0px 20px}
+	form.frmLog label { display:inline-table; width:100px; margin:0px; padding:0px 10px 5px 0px; font-size:0.9em; color:#666}
+	form.frmLog input { background-image:url(../img/fndInput01.png); border:0px; background-repeat:no-repeat; background-position:top left; width:161px; font-size:0.9em; padding:5px 15px 7px 15px; color:#333;}
+	form.frmLog input.btn{ text-align:center; width:192px; background-image:url(../img/fndInput02.png); text-transform:uppercase; font-weight:bold }
+	form.frmLog p { margin:5px 0px 20px 0px; padding:0px}
+
+	#fMen { margin:0px 10px 20px 0px; padding:30px 0px 0px 0px; background-repeat:no-repeat;}
+	#fMen p { margin:24px 0px 0px 0px; text-align:center}
+	#fMen img { margin:0px 30px 0px 30px}
+
+	
+	#tablaUsuarios {}
+	#tablaUsuarios p { font-size:0.8em; margin:0px 0px 10px 0px}
+	#tablaUsuarios p a { color:#900; font-size:0.9em; font-weight:bold; letter-spacing:0.1em; margin-left:10px; text-decoration:none} 
+	#tablaUsuarios p.table01 { height:20px;  background-repeat:no-repeat; margin:0px; padding:0px}
+	#tablaUsuarios table{ background-image:url(../img/table02.png); background-repeat:no-repeat; margin:0px; padding:5px;	}
+	#tablaUsuarios table th  { width:10px; font-size:0.9em;  text-align:center; font-variant:small-caps; vertical-align:middle; padding:5px 5px 5px 5px; color:#666}
+	#tablaUsuarios table th.nombre { width:150px}
+	#tablaUsuarios table th.permisos { width:50px; font-size:0.8em}
+	#tablaUsuarios table td { padding-left:10px}
+	#tablaUsuarios table td.vac { width:50px}
+	#tablaUsuarios table td.permisos { text-align:center}
+	#tablaUsuarios table td.acciones { width:130px; padding-left:20px}
+	#tablaUsuarios table td { font-size:0.8em}
+	#tablaUsuarios p.table03 { height:30px; background-image:url(../img/table03.png); background-repeat:no-repeat; margin:0px 0px 0px -18px; padding:0px; width: 930px;}
+	#tablaUsuarios p.table04 { height:30px; background-repeat:no-repeat; padding:0px}
+	#tablaUsuarios p a.modCli { color:#900; float: right; margin-right: 20px;} 
+
+	#tablaUsuarios #gesUsu { background-image:url(../img/fndUsu.png); background-repeat:no-repeat; margin:0px; padding:10px 0px 40px 30px}
+	#tablaUsuarios #gesUsu form.frmUsu { margin:0px; padding:0px; }
+	#tablaUsuarios #gesUsu form.frmUsu label{ display:inline-block; text-align:right }
+	#tablaUsuarios #gesUsu form.frmUsu input { background-image:url(../img/fndInput03.png); border:0px; background-repeat:no-repeat; background-position:top left; width:150px; padding:8px 15px 8px 15px; color:#333;}
+	#tablaUsuarios #gesUsu form.frmUsu input.chk { width:30px}
+	#tablaUsuarios #gesUsu form.frmUsu input.btn { background-image:url(../img/fndInput04.png); background-repeat:no-repeat; width:170px; text-align:center; font-variant:small-caps; font-weight:bold; color:#900; cursor:pointer}
+	#tablaUsuarios #gesUsu form.frmUsu input.btn2 { background-image:url(../img/fndInput04.png); background-repeat:no-repeat; width:170px; text-align:center; margin:20px 0px 0px 20px; font-variant:small-caps; font-weight:bold; color:#900; cursor:pointer}
+	#tablaUsuarios #gesUsu span { font-size:0.9em; font-style:italic; color:#666}
+	#tablaUsuarios #gesUsu form.frmUsu  #colum{ -webkit-column-count: 3; /* Chrome, Safari, Opera */  -moz-column-count:3; /* Firefox */  column-count: 3;}
+	#tablaUsuarios #gesUsu p.cerrar { text-align:right; margin:25px 20px 0px 0px; font-size:0.8em}
+	#tablaUsuarios #gesUsu p.cerrar a { text-decoration:none; color:#900}
+	#tablaUsuarios #gesUsu p.cerrar a:hover { text-decoration:underline; color:#666}
+	
+	#tablaUsuarios #export { align-items: center; margin-left:155px;}
+	#tablaUsuarios #export form{ float:left;}
+	#tablaUsuarios #export input{ width:77px; height:97px; }
+	#tablaUsuarios #export input:hover {  position: relative;  -webkit-animation: mymove 0.6s;  -webkit-animation-fill-mode: forwards; animation: mymove 0.6s; animation-fill-mode: forwards;}
+	@-webkit-keyframes mymove {  from {top: 0px;}  to {top: -5px;}}
+	@keyframes mymove { from {top: 0px;}  to {top: -5px;}}
+
+	#tablaUsuarios #export h1{ margin-left: 85px;}
+	
+	#partesB { background-image:url(../img/fndPartes.png); background-repeat:no-repeat; background-position:top left; margin:0px; padding:5px 0px 0px 20px }
+	#partesB p { font-size:0.8em; margin:10px 0px 0px 0px}
+	#partesB label { font-style:italic}
+	#partesB #dFecha { font-variant:small-caps; }
+	#partesB #dFecha label { width:130px; display:inline-block; margin:0px 10px 0px 20px; text-align:right; color:#666; font-weight:bold; font-size:1.1em;}
+	#partesB #gesCli{ margin:30px 0px 0px 0px }
+	#partesB #gesCli label { width:100px; display:inline-block; margin:0px 0px 0px -25px; text-align:right; color:#666}
+	#partesB #dVisita{ margin:20px 0px 30px 0px }
+	#partesB #dVisita label { width:160px; display:inline-block; margin:0px 10px 0px 20px; text-align:right; color:#666}
+	#partesB #dCompet{ margin:30px 0px 0px 0px; padding:0px }
+	#partesB #dCompet label { width:130px; display:inline-block; margin:0px 10px 0px 20px; text-align:right; color:#666}
+	#partesB #dEqui { margin:30px 0px 0px 0px; padding:0px }
+	#partesB #dEqui table { margin:0px 10px 0px 50px; border:1PX solid #CCC;}
+	#partesB #dEqui table th { font-size:0.9em; font-variant:small-caps; color:#666; width:70px; text-align:center; background-color:#DDD; padding:5px 5px}
+	#partesB #dEqui table td { font-size:0.9em; color:#666; text-align:center;padding:5px 5px}
+	#partesB #dEqui table td.lit { width:140px; text-align:left} 
+	#partesB #dPrecio { margin:30px 0px 0px 0px; padding:0px }
+	#partesB #dPrecio label { width:80px; display:inline-block; margin:0px 10px 0px 20px; text-align:right; color:#666}
+	#partesB #dPrecio table { margin:10px 10px 0px 50px; border:1PX solid #CCC;}
+	#partesB #dPrecio table th { font-size:0.9em; font-variant:small-caps; color:#666; width:70px; text-align:center; background-color:#DDD; padding:5px 5px;}
+	#partesB #dPrecio table td { font-size:0.9em; color:#666; text-align:center;padding:5px 5px}
+	#partesB #dPrecio table td.lit { width:140px; text-align:left} 
+	#partesB #dCanon  { margin:30px 0px 0px 0px; padding:0px }
+	#partesB #dCanon label { width:150px; display:inline-block; margin:0px 10px 0px 20px; text-align:right; color:#666}
+	#partesB #dCanon table { margin:10px 10px 0px 50px; border:1PX solid #CCC;}
+	#partesB #dCanon table th { font-size:0.9em; font-variant:small-caps; color:#666; width:70px; text-align:center; background-color:#DDD; padding:5px 5px;}
+	#partesB #dCanon table td { font-size:0.9em; color:#666; text-align:center;padding:5px 5px}
+	#partesB #dCanon table td.lit { width:190px; text-align:left} 
+	#partesB #dComent{ margin:30px 0px 0px 60px; padding:0px 0px 70px 0px }
+	#partesB #dComent label {margin:0px 10px 0px -20px;color:#666}
+	#partesB #pdf  {margin:-40px 80px 0px 50px}
+
+	
+	.partesN { background-image:url(../img/fndMov.png); background-repeat:no-repeat; background-position:top left; margin:0px 0px 10px 0px; padding:5px 25px 10px 0px; height:55px; text-align:center}
+	.partesN p img { float:left}
+	.partesN p span {margin-top:50px; color:#666;}
+	.partesN span { margin:00px 20px -20px 0px; }
+	.partesN select { background-image:url(../img/input06.png); background-position:top left; background-repeat:no-repeat; padding:8px 10px 7px 10px; border:0px; width:5px}
+	.partesN input.tipo01 { background-image:url(../img/input01.png); background-position:top left; background-repeat:no-repeat;width:83px; text-align:center; padding:9px 5px 9px 2px; width:83px}
+	.partesN p { margin:7px 10px 10px 10px; font-size:0.9em}
+	.partesN p a { color:#900; font-size:0.9em; font-weight:bold; letter-spacing:0.1em; margin-left:10px; text-decoration:none} 
+	.partesN label { display:inline-block; margin:0px 10px 0px 0px; width:100px }
+	.partesN label { font-style:italic}
+	.partesN input { margin:0px 20px 0px 0px; border:0px; padding:5px 5px}
+	.partesN input.butbuscar { margin:0px 20px -20px 0px; border:0px; padding:5px 5px}
+
+	.partesN2 { background-image:url(../img/fndMov2.png); background-repeat:no-repeat; background-position:top left; margin:20px 28px 0px 0px; padding:20px 0px 0px 0px; text-align:center; height:150px}
+	.partesN2 input { border:0px; width:280px; height:35px}
+	.partesN2 input.but { background-image:url(../img/fndInput05.png); margin:10px 10px 0px 0px; padding:0px 0px 7px 0px; text-align:center; border:0px; width:280px; height:35px; font-variant:small-caps; font-weight:bold; color:#900; cursor:pointer}
+	.partesN2 input.butpdf {  margin:10px 30px 0px 0px; border:0px; padding:5px 5px;}
+	.partesN2 input.tipo01 { background-image:url(../img/input01.png); background-position:top left; background-repeat:no-repeat; text-align:center; padding:-10px 15px 8px 15px;margin:0px 0px 0px 0px; width:83px; font-variant:small-caps; font-weight:bold; color:#900; cursor:pointer;vertical-align:middle;}
+	.partesN2 select { background-image:url(../img/input06.png); background-position:top left; background-repeat:no-repeat; padding:8px 10px 7px 10px; border:0px; width:30px}
+	.partesN2 label { display:inline-block; margin:0px 10px 0px 0px; width:100px }
+	.partesN2 label { font-style:italic}
+	.partesN2 p { margin:7px 10px 0px 10px; font-size:0.9em}
+	.partesN2 p a { color:#900; font-size:0.9em; font-weight:bold; letter-spacing:0.1em; margin-left:10px; text-decoration:none} 
+
+	.partesN1 { background-image:url(../img/fndMov.png); background-repeat:no-repeat; background-position:top left; margin:0px 0px 10px 0px; padding:20px 0px 0px 100px; height:55px; text-align:center}
+	.partesN1 p img { float:left}
+	.partesN1 p span { color:#666; float:left; width:80px; text-align:center; padding-top:5px}
+	.partesN1 p { margin:0px 10px 10px 10px; font-size:0.9em}
+	.partesN1 input { margin:0px 10px; border:0px; float:left;}
+	 
+
+
+	#partesB { background-image:url(../img/fndPartes.png); background-repeat:no-repeat; background-position:top left; margin:0px; padding:15px 0px 0px 20px }
+	#partesB p { font-size:0.8em; margin:10px 0px 0px 0px}
+	#partesB label { font-style:italic}
+	#partesB #dFecha { font-variant:small-caps; }
+	#partesB #dFecha label { width:130px; display:inline-block; margin:0px 10px 0px 20px; text-align:right; color:#666; font-weight:bold; font-size:1.1em;}
+	#partesB #gesCli{ margin:0px 0px 0px 0px }
+	#partesB #gesCli #colum{ -webkit-column-count: 3; /* Chrome, Safari, Opera */  -moz-column-count:3; /* Firefox */  column-count: 3;}
+	#partesB #gesCli label { width:100px; display:inline-block; margin:0px 0px 0px 0px; text-align:right; color:#666}
+	#partesB #dVisita{ margin:20px 0px 30px 0px }
+	#partesB #dVisita label { width:160px; display:inline-block; margin:0px 10px 0px 20px; text-align:right; color:#666}
+	#partesB #dCompet{ margin:30px 0px 0px 0px; padding:0px }
+	#partesB #dCompet label { width:130px; display:inline-block; margin:0px 10px 0px 20px; text-align:right; color:#666}
+	#partesB #dEqui { margin:30px 0px 0px 0px; padding:0px }
+	#partesB #dEqui table { margin:0px 10px 0px 50px; border:1PX solid #CCC;}
+	#partesB #dEqui table th { font-size:0.9em; font-variant:small-caps; color:#666; width:70px; text-align:center; background-color:#DDD; padding:5px 5px}
+	#partesB #dEqui table td { font-size:0.9em; color:#666; text-align:center;padding:5px 5px}
+	#partesB #dEqui table td.lit { width:140px; text-align:left} 
+	#partesB #dPrecio { margin:30px 0px 0px 0px; padding:0px }
+	#partesB #dPrecio label { width:80px; display:inline-block; margin:0px 10px 0px 20px; text-align:right; color:#666}
+	#partesB #dPrecio table { margin:10px 10px 0px 50px; border:1PX solid #CCC;}
+	#partesB #dPrecio table th { font-size:0.9em; font-variant:small-caps; color:#666; width:70px; text-align:center; background-color:#DDD; padding:5px 5px;}
+	#partesB #dPrecio table td { font-size:0.9em; color:#666; text-align:center;padding:5px 5px}
+	#partesB #dPrecio table td.lit { width:140px; text-align:left} 
+	#partesB #dCanon  { margin:30px 0px 0px 0px; padding:0px }
+	#partesB #dCanon label { width:150px; display:inline-block; margin:0px 10px 0px 20px; text-align:right; color:#666}
+	#partesB #dCanon table { margin:10px 10px 0px 50px; border:1PX solid #CCC;}
+	#partesB #dCanon table th { font-size:0.9em; font-variant:small-caps; color:#666; width:70px; text-align:center; background-color:#DDD; padding:5px 5px;}
+	#partesB #dCanon table td { font-size:0.9em; color:#666; text-align:center;padding:5px 5px}
+	#partesB #dCanon table td.lit { width:190px; text-align:left} 
+	#partesB #dComent{ margin:30px 0px 0px 60px; padding:0px 0px 70px 0px }
+	#partesB #dComent label {margin:0px 10px 0px -20px;color:#666}
+	#partesB #pdf  {margin:-40px 20px 0px 50px}
+
+
+	#partesNB { background-image:url(../img/fndPartes.png); background-repeat:no-repeat; background-position:top left; margin:0px; padding:25px 0px 0px 20px }
+	#partesNB p { margin:7px 10px 10px 10px; font-size:0.9em}
+	#partesNB p a { color:#900; font-size:0.9em; font-weight:bold; letter-spacing:0.1em; margin-left:10px; text-decoration:none} 
+	#partesNB label { display:inline-block; margin:0px 10px 0px 0px; width:80px }
+	#partesNB label.t02 { width:120px}
+	#partesNB label.t03 { width:30px}
+	#partesNB label.t04 { width:40px}
+	#modificarVenta a { margin:0px 20px 0px 50px;color: #900; font-size: 0.9em; font-weight: bold; margin-left: 10px; text-decoration: none;}
+
+
+	#partesNB input { margin:0px 20px 0px 0px; border:0px; padding:5px 5px}
+	#partesNB input.tipo01 { background-image:url(../img/input01.png); background-position:top left; background-repeat:no-repeat; text-align:center; padding:9px 5px 9px 2px; width:83px}
+	#partesNB input.tipo02 { background-image:url(../img/input02.png); background-position:top left; background-repeat:no-repeat; text-align:left; padding:9px 10px 9px 10px; width:480px}
+	#partesNB input.tipo03 { background-image:url(../img/input03.png); background-position:top left; background-repeat:no-repeat; text-align:left; padding:9px 10px 9px 10px; width:200px}
+	#partesNB input.tipo04 { background-image:url(../img/input04.png); background-position:top left; background-repeat:no-repeat; text-align:left; padding:9px 10px 9px 10px; width:35px}
+	#partesNB #gesCli { margin:30px 0px 30px 10px; font-size:0.9em;}
+	#partesNB #gesCli select { background-image:url(../img/input02.png); background-position:top left; background-repeat:no-repeat; width:500px; padding:8px 10px 7px 10px; border:0px}
+
+	
+	#partesH { padding:0px; margin:10px 0px 20px 0px;}
+	#partesH p { font-size:0.8em; margin:0px 0px 10px 0px}
+	#partesH p a { color:#900; font-size:0.9em; font-weight:bold; letter-spacing:0.1em; margin-left:10px; text-decoration:none} 
+	#partesH #gesCli2 select { background-image:url(../img/input02.png); background-position:top left; background-repeat:no-repeat; padding:8px 10px 7px 10px; border:0px}
+
+	#fNuevoParte { padding:30px; margin:auto; background-image:url(../img/fndNuevoParte.png); background-repeat:no-repeat; background-position:top left;}
+	#fNuevoParte p { margin:7px 10px 10px 10px; font-size:0.9em}
+	#fNuevoParte p a { color:#900; font-size:0.9em; font-weight:bold; letter-spacing:0.1em; margin-left:10px; text-decoration:none} 
+	#fNuevoParte label { display:inline-block; margin:0px 0px 0px 0px; width:100px }
+	#fNuevoParte label { font-style:italic}
+	#fNuevoParte label.t02 { width:120px}
+	#fNuevoParte label.t03 { width:30px}
+	#fNuevoParte label.t04 { width:40px}
+	#fNuevoParte input { margin:0px 20px 0px 0px; border:0px; padding:5px 5px}
+	#fNuevoParte input.tipo01 { background-image:url(../img/input01.png); background-position:top left; background-repeat:no-repeat; text-align:center; padding:9px 5px 9px 2px; width:83px}
+	#fNuevoParte input.tipo001 { background-image:url(../img/input01.png); background-position:top left; background-repeat:no-repeat; text-align:center; padding:9px 5px 9px 2px; width:120px; outline: none}
+	#fNuevoParte input.tipo02 { background-image:url(../img/input02.png); background-position:top left; background-repeat:no-repeat; text-align:left; padding:9px 10px 9px 10px; width:480px}
+	#fNuevoParte input.tipo03 { background-image:url(../img/input03.png); background-position:top left; background-repeat:no-repeat; text-align:left; padding:9px 10px 9px 10px; width:200px}
+	#fNuevoParte input.tipo04 { background-image:url(../img/input04.png); background-position:top left; background-repeat:no-repeat; text-align:left; padding:9px 10px 9px 10px; width:35px}
+	#fNuevoParte textarea { background-image:url(../img/input05.png); background-position:top left; background-repeat:no-repeat; text-align:left; width:420px; height:73px; border:0; padding:8px 10px 0px 10px}
+	#fNuevoParte #gesCli select { background-image:url(../img/input02.png); background-position:top left; background-repeat:no-repeat; width:250px; padding:8px 10px 7px 10px; border:0px}
+	#fNuevoParte #gesCli2 select { background-image:url(../img/input07.png); background-position:top left; background-repeat:no-repeat; padding:8px 10px 7px 10px; border:0px}
+	#fNuevoParte input.but { background-image:url(../img/fndInput05.png); margin:0px 100px 0px 70px; border:0px; width:280px;text-align:center; font-variant:small-caps; font-weight:bold; color:#900; cursor:pointer; height:35px}
+	#fNuevoParte #gesCli3 select { background-image:url(../img/input07.png); background-position:top left; background-repeat:no-repeat; padding:8px 10px 7px 10px; border:0px}
+
+		
+	#tablaPartes p { font-size:0.8em; margin:0px 0px 10px 0px}
+	#tablaPartes p a { color:#900; font-size:0.9em; font-weight:bold; letter-spacing:0.1em; margin-left:10px; text-decoration:none} 
+	#tablaPartes p.table01 { height:20px; background-image:url(../img/table01.png); background-repeat:no-repeat; margin:0px; padding:0px}
+	#tablaPartes table{ background-image:url(../img/table02.png); background-repeat:no-repeat; margin:0px; padding:0px;	}
+	#tablaPartes table th  { width:10px; font-size:0.9em;  text-align:center; font-variant:small-caps; vertical-align:middle; padding:5px 5px 5px 5px; color:#666}
+	#tablaPartes table th.nombre { width:150px}
+	#tablaPartes table th.permisos { width:50px; font-size:0.8em}
+	#tablaPartes table td { padding-left:10px}
+	#tablaPartes table td.vac { width:50px}
+	#tablaPartes table td.permisos { text-align:center}
+	#tablaPartes table td.acciones { width:130px; padding-left:20px}
+	#tablaPartes table td { font-size:0.8em}
+	#tablaPartes p.table03 { height:30px; background-image:url(../img/table03.png); background-repeat:no-repeat; margin:0px; padding:0px}
+	#tablaPartes p a.modCli { color:#900; float: right; margin-right: 90px;} 
+
+	#tablaPartes #dPrecio { margin:0px 0px 0px -1px; padding:0px }
+	#tablaPartes #dPrecio label { width:80px; display:inline-block; margin:0px 10px 0px 20px; text-align:right; color:#666}
+	#tablaPartes #dPrecio table { padding: 10px 25px 25px 35px; margin:8px 0px 0px -30px;}
+	#tablaPartes #dPrecio table th { font-size:0.9em; font-variant:small-caps; color:#666; width:70px; text-align:center; background-color:#DDD; padding:5px 5px;}
+	#tablaPartes #dPrecio table td { font-size:0.9em; color:#666; text-align:center;padding:5px 5px}
+	#tablaPartes #dPrecio table td.lit { width:140px; text-align:left} 
+	#tablaPartes #fechaEditarParte {}
+	#tablaPartes #estadoEditarParte {float:right;margin:-75px 70px 0px -10px;}
+	#txtobservaciones  {width:340px;}
+
+	#tablaPartes #gesParte { background-image:url(../img/fndUsu.png); background-repeat:no-repeat; margin:0px; padding:10px 0px 40px 30px}
+	#tablaPartes #gesParte form.frmUsu { margin:0px; padding:0px}
+	#tablaPartes #gesParte form.frmUsu label{ display:inline-block; width:80px; margin:0px 10px 0px 10px; text-align:right }
+	#tablaPartes #gesParte form.frmUsu input { background-image:url(../img/fndInput03.png); border:0px; background-repeat:no-repeat; background-position:top left; width:150px; padding:8px 15px 8px 15px; color:#333; outline: none}
+	#tablaPartes #gesParte form.frmUsu input.chk { width:30px}
+	#tablaPartes #gesParte form.frmUsu input.btn { float: right; background-image: url(../img/fndInput04.png); background-repeat: no-repeat; width: 170px;text-align: center; font-variant: small-caps; font-weight: bold;  color: #900;  cursor: pointer; margin: -40px 20px 0px 0px;}
+	#tablaPartes #gesParte form.frmUsu input.btn2 { background-image:url(../img/fndInput04.png); background-repeat:no-repeat; width:170px; text-align:center; margin:20px 0px 0px 20px; font-variant:small-caps; font-weight:bold; color:#900; cursor:pointer}
+	#tablaPartes #gesParte span { font-size:0.9em; font-style:italic; color:#666}
+	#tablaPartes #gesParte p.cerrar { text-align:right; margin:25px 20px 0px 0px; font-size:0.8em}
+	#tablaPartes #gesParte p.cerrar a { text-decoration:none; color:#900}
+	#tablaPartes #gesParte p.cerrar a:hover { text-decoration:underline; color:#666}
+	#tablaPartes select { background-image:url(../img/input06.png); background-position:top left; background-repeat:no-repeat; padding:8px 10px 7px 10px; border:0px; width:5px}
+
+	
+	#tablaVehiculos p { font-size:0.8em; margin:0px 0px 10px 0px}
+	#tablaVehiculos p a { color:#900; font-size:0.9em; font-weight:bold; letter-spacing:0.1em; margin-left:10px; text-decoration:none} 
+	#tablaVehiculos p.table01 { height:20px; background-image:url(../img/table01.png); background-repeat:no-repeat; margin:0px; padding:0px}
+	#tablaVehiculos table{ background-image:url(../img/table02.png); background-repeat:no-repeat; margin:0px; padding:0px;}
+	#tablaVehiculos table th  { width:10px; font-size:0.9em;  text-align:center; font-variant:small-caps; vertical-align:middle; padding:5px 5px 5px 5px; color:#666}
+	#tablaVehiculos table th.nombre { width:150px}
+	#tablaVehiculos table th.permisos { width:50px; font-size:0.8em}
+	#tablaVehiculos table td { padding-left:10px}
+	#tablaVehiculos table td.vac { width:50px}
+	#tablaVehiculos table td.permisos { text-align:center}
+	#tablaVehiculos table td.acciones { width:130px; padding-left:20px}
+	#tablaVehiculos table td { font-size:0.8em}
+	#tablaVehiculos p.table03 { background-repeat:no-repeat; margin:0px; padding:0px}
+	#tablaVehiculos p a.modCli { color:#900; float: right; margin-right: 90px;} 
+
+	#tablaVehiculos #gesUsu { background-image:url(../img/fndUsu.png); background-repeat:no-repeat; margin:0px; padding:10px 0px 40px 30px}
+	#tablaVehiculos #gesUsu form.frmUsu { margin:0px; padding:0px}
+	#tablaVehiculos #gesUsu form.frmUsu label{ display:inline-block; width:80px; margin:0px 10px 0px 10px; text-align:right }
+	#tablaVehiculos #gesUsu form.frmUsu input { background-image:url(../img/fndInput03.png); border:0px; background-repeat:no-repeat; background-position:top left; width:150px; padding:8px 15px 8px 15px; color:#333;}
+	#tablaVehiculos #gesUsu form.frmUsu input.chk { width:30px}
+	#tablaVehiculos #gesUsu form.frmUsu input.btn { background-image:url(../img/fndInput04.png); background-repeat:no-repeat; width:170px; text-align:center; margin:15px 0px 0px 500px; font-variant:small-caps; font-weight:bold; color:#900; cursor:pointer}
+	#tablaVehiculos #gesUsu form.frmUsu input.btn2 { background-image:url(../img/fndInput04.png); background-repeat:no-repeat; width:170px; text-align:center; margin:20px 0px 0px 20px; font-variant:small-caps; font-weight:bold; color:#900; cursor:pointer}
+	#tablaVehiculos #gesUsu span { font-size:0.9em; font-style:italic; color:#666}
+	#tablaVehiculos #gesUsu p.cerrar { text-align:right; margin:25px 70px 0px 0px; font-size:0.8em}
+	#tablaVehiculos #gesUsu p.cerrar a { text-decoration:none; color:#900}
+	#tablaVehiculos #gesUsu p.cerrar a:hover { text-decoration:underline; color:#666}
+
+	#tablaVehiculos #dEqui { margin:0px 0px 10px -40px; padding:0px }
+	#tablaVehiculos #dEqui table { margin:0px 10px 0px 50px; border:1PX solid #CCC;}
+	#tablaVehiculos #dEqui table th { font-size:0.9em; font-variant:small-caps; color:#666; width:70px; text-align:center; background-color:#DDD; padding:5px 5px}
+	#tablaVehiculos #dEqui table td { font-size:0.9em; color:#666; text-align:center;padding:5px 5px}
+	#tablaVehiculos #dEqui table td.lit { width:140px; text-align:left} 
+	
+	#tablaEmail p { font-size:0.8em; margin:0px 0px 10px 0px}
+	#tablaEmail p a { color:#900; font-size:0.9em; font-weight:bold; letter-spacing:0.1em; margin-left:10px; text-decoration:none} 
+
+	#tablaEmail #dPrecio { margin:0px 0px 0px -1px; padding:0px }
+	#tablaEmail #dPrecio label { width:80px; display:inline-block; margin:0px 10px 0px 20px; text-align:right; color:#666}
+	#tablaEmail #estadoEditarParte {float:right;margin:-75px 70px 0px -10px;}
+
+	#tablaEmail #gesParte { background-image:url(../img/fndNuevocli.png); background-repeat:no-repeat; margin:0px; padding:10px 0px 10px 10px}
+	#tablaEmail #gesParte form.frmUsu { margin:0px; padding:0px}
+	#tablaEmail #gesParte form.frmUsu label{ font-family: Georgia, serif;  font-size: 1.2em;   color: #666; width:80px; margin:0px 30px 0px 20px; text-align:right }
+	#tablaEmail #gesParte form.frmUsu input { background-image:url(../img/Input07.png); border:0px; background-repeat:no-repeat; background-position:top left; width:370px; padding:8px 15px 10px 15px; color:#333; outline: none}
+	#tablaEmail #gesParte form.frmUsu input.chk { width:30px}
+	#tablaEmail #gesParte form.frmUsu input.btn { float: right; background-image: url(../img/fndInput04.png); background-repeat: no-repeat; width: 170px;text-align: center; font-variant: small-caps; font-weight: bold;  color: #900;  cursor: pointer; margin: -40px 0px 0px 0px;}
+	#tablaEmail #gesParte form.frmUsu input.btn2 { background-image:url(../img/fndInput04.png); background-repeat:no-repeat; width:170px; text-align:center; margin:20px 0px 0px 20px; font-variant:small-caps; font-weight:bold; color:#900; cursor:pointer}
+	#tablaEmail #gesParte span { font-size:0.9em; font-style:italic; color:#666}
+	#tablaEmail #gesParte p.cerrar { text-align:right; margin:25px 70px 0px 0px; font-size:0.8em}
+	#tablaEmail #gesParte p.cerrar a { text-decoration:none; color:#900}
+	#tablaEmail #gesParte p.cerrar a:hover { text-decoration:underline; color:#666}
+	#tablaEmail #gesParte h2 { margin:35px 10px 0px 10px;}
+	#tablaEmail #gesParte textarea { background-image:url(../img/input05.png); background-position:top left; background-repeat:no-repeat; text-align:left; width:350px; height:73px; border:0; padding:8px 10px 0px 10px; outline: none}
+
+}
